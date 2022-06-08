@@ -8,7 +8,7 @@
         i. Tkinter possible --- Possible website built
         ii. Drop down to select different options and catagories 
         populating the form
-        iii. Red send it button that sends an email
+        iii. Red send it button that populates and sends an email
       2.Newsletter format
         i. html/css look at other newsletter generators
           . https://mjml.io/ <--- looks promising
@@ -18,5 +18,6 @@
         i. Python, soup and pandas to get wanted idea.
           . May have to create a class for each site that is looked at
           . Cloud flare and anti scrapping practises will be a problem.
+          . TLDR. Bot
       5. Costco inflation index
         i. I would like to keep a costco inflation index generated on the dashboard and website
