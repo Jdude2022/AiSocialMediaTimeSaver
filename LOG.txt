@@ -1,5 +1,8 @@
 
 
+6.23.22 --- Idea Update
+-- Look into Implimenting RSS feed
+
 
 6.8.22 --- initial start
   plan:
