@@ -1,4 +1,7 @@
-
+6.30.22 ---- Guis Are Hard
+-- Restarted the Dashboard
+	-Should turn pick source into topic, and already have a preset of 
+	items to show.
 
 6.23.22 --- Idea Update
 -- Look into Implimenting RSS feed
