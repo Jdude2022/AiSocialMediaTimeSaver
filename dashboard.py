@@ -1,5 +1,8 @@
+from ctypes import util
+import utils.source_list
 from tkinter import *
 from tkinter import ttk
+
 
 class Dashboard:
 
@@ -14,9 +17,9 @@ class Dashboard:
         ttk.Label(mainframe, text='Select Source:').grid(column=0, row=0)
         ttk.Combobox(mainframe).grid(column=1,row=0)
 
-        '''
+        
         ttk.Button(mainframe, text="Calculate", command=self.calculate).grid(column=3, row=3, sticky=W)
-
+        '''
         ttk.Label(mainframe, text="feet").grid(column=3, row=1, sticky=W)
         ttk.Label(mainframe, text="is equivalent to").grid(column=1, row=2, sticky=E)
         ttk.Label(mainframe, text="meters").grid(column=3, row=2, sticky=W)
@@ -36,8 +39,9 @@ class Dashboard:
         except ValueError:
             pass
     '''
-    def calculate(self):
-        pass
+    def calculate(self, *args):  # Note to self, *args is so that the enter key works
+        utils.source_list.sources.source_1()
+
 
 root = Tk()
 Dashboard(root)
