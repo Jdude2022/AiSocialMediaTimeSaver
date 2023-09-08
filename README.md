@@ -1,4 +1,4 @@
-# Python_newsletter_gen
+# Social Media Generator with the use of ai
 
 ToDo  
   1.Create Initial GUI for the newletter generator  
