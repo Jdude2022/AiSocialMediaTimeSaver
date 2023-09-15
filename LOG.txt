@@ -1,3 +1,9 @@
+9.14.23 playing with kivy
+
+9.10.23 --- going with a social media dashboard now,
+
+8.30.23 --- Hijacking this repo.
+
 6.30.22 ---- Guis Are Hard
 -- Restarted the Dashboard
 	-Should turn pick source into topic, and already have a preset of 
