@@ -8,6 +8,7 @@ ToDo:
     4. Automate the posting. (maybe force weekly manuel posting) 
     5. Repeat, and force manuel re-verification
 
+Have to make a corny trailer.
 
 ## Social media dash.
     Twitter api allows posts
