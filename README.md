@@ -1,4 +1,4 @@
-# Social Media Generator with the use of ai
+# Social Media Generator.
 
 ToDo:
   Planning:
