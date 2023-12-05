@@ -1,8 +1,12 @@
 """Main Project file.
 
-Social media manager, with projected ai functionality
+Social media manager. 
 
-Author : John Jalali
-Version 0.1"""
+Author : John Jalali jjalali@ksu.edu
+Version 0.1
+"""
 
-print("__main__")
+import sys
+from src.socialmanager.web.Web import Web
+app = Web.main(sys.argv)
+app.run()
