@@ -6,5 +6,3 @@ Usage:
 Author: John Jalali
 Version: 0.1
 """
-from src.sfsubs.web.Web import Web
-app = Web.main(list())

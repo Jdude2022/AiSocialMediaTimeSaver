@@ -6,6 +6,7 @@ version: v0.1
 """
 from src.socialmanager.data.socials.SocialBase import SocialBase
 from datetime import date
+import datetime
 
 
 class TestSocialBase:
@@ -29,4 +30,14 @@ class TestSocialBase:
 
     def test_15_days(self):
         """Test if 15 days have been added to the base."""
-        pass
+        fake_db = dict()
+        base = SocialBase(fake_db)
+        test_date = date.today() + datetime.timedelta(days=15)
+        assert test_date.strftime('%a %d %b %Y') in fake_db.keys()
+
+    def test_30_days(self):
+        """Test if 30 days have been added to the base."""
+        fake_db = dict()
+        base = SocialBase(fake_db)
+        test_date = date.today() + datetime.timedelta(days=30)
+        assert test_date.strftime('%a %d %b %Y') in fake_db.keys()
