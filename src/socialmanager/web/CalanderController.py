@@ -5,7 +5,7 @@ Version 0.1
 """
 from flask import render_template, request
 from flask_classful import FlaskView, route  # type: ignore
-from src.socialmanager.data.planner.Generator import Generator
+from src.socialmanager.data.dbs.Generator import Generator
 from typing import List
 
 

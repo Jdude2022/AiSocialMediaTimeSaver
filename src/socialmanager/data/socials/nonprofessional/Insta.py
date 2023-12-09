@@ -3,7 +3,7 @@
 Insta has a schedule that looks interesting.
 """
 from src.socialmanager.data.socials.SocialBase import SocialBase
-from src.socialmanager.data.planner.other_dbs.RandomTopics import RandomTopics
+from src.socialmanager.data.dbs.other_dbs.RandomTopics import RandomTopics
 from datetime import date
 
 

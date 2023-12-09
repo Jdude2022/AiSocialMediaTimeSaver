@@ -23,14 +23,21 @@ class SocialBase:
                 current_date_converted = current_date.strftime('%a %d %b %Y') 
                 self._db[current_date_converted] = [[]]
                 current_date = current_date + datetime.timedelta(days=1)
-# fake_dic = dict()
 
-# base = SocialBase(fake_dic)
-# for key in fake_dic.keys():
-#     print(key)
-    def month_view(self, date: str) -> List:
+    def month_view(self, req_date: str) -> List[str]:
         """Prints out the current month calander."""
-        pass
+        # Get current Month.
+        split_date = req_date.split(" ")
+        desired_month = split_date[2]
+        month_range: List[str] = list()
+        if desired_month in self._db.keys():
+            month_range.append()
+            pass
+            # Find first of the month.
+
+            # Populate the List until the next month.
+
+        # return the List
 
     def week_view(self, date: str) -> List:
         """Prints out the current week calander."""

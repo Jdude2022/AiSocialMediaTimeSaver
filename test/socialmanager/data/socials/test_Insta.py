@@ -3,7 +3,7 @@
 Author: John Jalali jjalali@ksu.edu
 Version: 0.1
 """
-from src.socialmanager.data.planner.Generator import Generator
+from src.socialmanager.data.dbs.Generator import Generator
 
 
 class TestInsta:
